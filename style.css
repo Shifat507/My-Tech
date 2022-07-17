@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.device img{
+    width: 75%;
+    height: 50%;
+}
+.device{
+    border: 2px solid green;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 2px 3px;
+}
+h1{
+    color: #66a9ec;
+    padding-left: 20px;
+    font-size: 2em;
+}
+h5,h4{
+    margin: 0%;
+}
+.header-area{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 65%;
+}
+.search{
+    padding-top: 40px;
+}
+button{
+    position: absolute;
+    background-color: #42c042;
+    font-size: 1em;
+    margin-left: 11.5%;
+    padding: 3px;
+}
+.fa-star, .fa-star-half-stroke{
+    color: gold;
+}
